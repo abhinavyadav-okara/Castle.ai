@@ -1,6 +1,6 @@
 const BASE_URL = "https://castle-ai.vercel.app";
 
-const ROUTES = ["/", "/home", "/learn", "/puzzle", "/play", "/blog", "/board"];
+const ROUTES = ["/", "/home", "/learn", "/puzzle", "/play", "/blog", "/board", "/api-key-generator"];
 
 export default function sitemap() {
   const lastModified = new Date();
